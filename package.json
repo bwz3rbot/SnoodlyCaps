@@ -1,0 +1,31 @@
+{
+  "name": "snoodlycaps",
+  "version": "1.0.0",
+  "description": "Finds Reddit comments at an interval and replies to them in a mocking tone...",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-temps/SnoodlyCaps.git"
+  },
+  "keywords": [
+    "Snoowrap",
+    "Reddit",
+    "Javascript",
+    "API",
+    "bot",
+    "scrape"
+  ],
+  "author": "JDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-temps/SnoodlyCaps/issues"
+  },
+  "homepage": "https://github.com/web-temps/SnoodlyCaps#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "snoowrap": "^1.21.0"
+  }
+}
