@@ -40,4 +40,4 @@ $ node ./src/app.js
 ### That's it. If you have any questions or comments, send me a pm on Github or through Reddit /u/Bwz3r. I'll be happy to help you.
 
 
-#### <a href="http://www.web-temps.github.io">web-temps.github.io</a>
+#### <a href="https://web-temps.github.io/">web-temps.github.io</a>
