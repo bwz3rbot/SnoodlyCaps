@@ -1,0 +1,23 @@
+# First thing's first. You could use your current account for this, but I reccomend that you create a fresh account for the bot.
+# Once the account is created and you are logged in, visit this url(https://www.reddit.com/prefs/apps/) and create a script app. 
+# You are required to give it a valid redirect url, but it can go anywhere, say google.com. 
+
+
+
+# fill in the fields below and then remove 'EXAMPLE' from the end of the file name. (E.g. 'pw.envExample' > 'pw.env')
+
+USER_AGENT=''
+CLIENT_ID=''
+CLIENT_SECRET=''
+REDDIT_USER=''
+REDDIT_PASS=''
+
+
+
+# Now that you'ved filled in your account details, you need to run this command to install the required dependencies to run the application.
+
+> npm i --save snoowrap
+
+# Once installed, you can run the app by using this command from within the root folder:
+
+> node ./src/app.js
