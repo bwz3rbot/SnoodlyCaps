@@ -16,10 +16,10 @@ Once in the file, fill in the fields below.
 
 >file:SnoodlyCaps>pw.envEXAMPLE
 
-USER_AGENT=''
-CLIENT_ID=''
-CLIENT_SECRET=''
-REDDIT_USER=''
+USER_AGENT=''\
+CLIENT_ID=''\
+CLIENT_SECRET=''\
+REDDIT_USER=''\
 REDDIT_PASS=''
 
 
