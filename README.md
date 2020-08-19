@@ -40,7 +40,6 @@ Once installed, you can run the app by using this command from within the root f
 > node ./src/app.js
 
 # That's it. If you have any questions or comments, send me a pm through Github or through Reddit @Bwz3r. I'll be happy to help you.
-<div style="text-align:center">
 
-<a href="https://www.web-temps.github.io">web-temps.github.io</a>
-</div>
+
+# <a href="https://www.web-temps.github.io">web-temps.github.io</a>
