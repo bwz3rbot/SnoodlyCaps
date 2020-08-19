@@ -4,11 +4,6 @@
 
 # Instructions on how to run:
 
-run these commands from within the root folder:
-    npm i --save dotenv snoowrap
-
-
-
 First thing's first. You could use your current account for this, but I reccomend that you create a fresh account for the bot.
 
 Once the account is created and you are logged in, visit this url(https://www.reddit.com/prefs/apps/) and create a script app. Here is where you will find the values needed to authenticate the bot. 
