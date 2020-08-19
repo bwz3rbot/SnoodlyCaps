@@ -25,4 +25,4 @@ require('./config/snoo-config');
 
 // RUN TESTS
 const test = require('./test/test')
-test.test();
+test.test()

@@ -2,6 +2,10 @@
  Finds Reddit comments at an interval and replies to the author in a mocking tone...
 
 
+
+ ###### Studly caps, also known as alternating caps, is a form of text notation in which the capitalization of letters varies by some pattern, or arbitrarily (often also omitting spaces between words and occasionally some letters), such as StUdLyCaPs or sTuDLycApS. It is typically used to convey a mocking tone.
+
+
 # Instructions on how to run:
 
 First thing's first. You could use your current account for this, but I reccomend that you create a fresh account for the bot.
