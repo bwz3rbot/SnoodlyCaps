@@ -106,3 +106,4 @@ dist
 
 # all environment variable files
 *.env
+/src/secure

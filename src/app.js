@@ -5,21 +5,24 @@
 
 // Require Configuration Files
 require('dotenv').config({
-    path: "./snooty.env"
+    path: "./pw.env"
 });
 
 // Require and Initialize The Snoo-Pendencies With Authentication Credentials
 require('./config/snoo-config');
 
-const test = require('./test/test')
+
 
 
 // Get List of Available Services
-const Services = require('./service/_Services').get
+// const Services = require('./service/_Services').get
 
 
 // Choose a Service, then a function... Et voilà - You have your data!
-// Services.subreddit.stormSub();
 
-Services.pushshift.sendGetRequest(
-    'https://api.pushshift.io/reddit/search/comment/?q=fuck&sort=asc&size=100')
+
+
+
+// RUN TESTS
+const test = require('./test/test')
+test.test();
