@@ -1,11 +1,4 @@
-// Configuration File for Snoowrap and Snoostorm
-
-// Requiring Snoowrap
 const Snoowrap = require('snoowrap');
-
-
-
-
 // Snoowrap Init
 const snoowrap = new Snoowrap({
     userAgent: process.env.USER_AGENT,
@@ -14,7 +7,6 @@ const snoowrap = new Snoowrap({
     username: process.env.REDDIT_USER,
     password: process.env.REDDIT_PASS
 });
-
 // Snoowrap Config
 snoowrap.config({
     requestDelay: 1000,
@@ -24,7 +16,6 @@ snoowrap.config({
     maxRetryAttempts: 3,
     debug: false
 })
-
 module.exports = {
     snoowrap: snoowrap
 }
