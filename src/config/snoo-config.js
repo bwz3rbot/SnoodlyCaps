@@ -22,10 +22,9 @@ snoowrap.config({
     continueAfterRatelimitError: false,
     retryErrorCodes: [502, 504, 522],
     maxRetryAttempts: 3,
-    debug: true
+    debug: false
 })
 
 module.exports = {
-    Snoowrap: snoowrap,
     snoowrap: snoowrap
 }

@@ -20,9 +20,6 @@ require('./config/snoo-config');
 
 // Choose a Service, then a function... Et voilà - You have your data!
 
+const SnoodlyCap = require('./service/_Services').get.snoodlyCap
 
-
-
-// RUN TESTS
-const test = require('./test/test')
-test.test()
+SnoodlyCap.run();
